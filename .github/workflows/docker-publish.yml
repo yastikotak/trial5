@@ -23,7 +23,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: yasti30/p1
+          images: yasti30/p2
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
